@@ -1,0 +1,204 @@
+/*-- header start --*/
+
+#header {
+  width: 1190px;
+  height: 160px;
+  margin: 0 auto;
+  padding: 20px 30px 0;
+}
+
+#search {
+  padding-top: 30px;
+}
+
+#search h1 {
+  width: 222px;
+  height: 52px;
+  background: url(../sp_main.png) 0 252px;
+  display: inline-block;
+  background-size: 440px 410px;
+  text-indent: -9999px;
+  vertical-align: middle;
+  position: relative;
+  top: -8px;
+}
+
+#search h2 {
+  /* display: none; */
+}
+
+#search fieldset {
+  width: 586px;
+  height: 56px;
+  padding: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 20px;
+  border: 2px solid #19ce60;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+}
+
+#search fieldset input {
+  width: 474px;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  margin: 1px;
+  outline: none;
+  font-size: 18px;
+}
+
+#search fieldset button {
+  width: 52px;
+  height: 52px;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #19ce60;
+  cursor: pointer;
+}
+
+#search fieldset button span {
+  width: 22px;
+  height: 22px;
+  background-image: url(../sp_main.png);
+  background-position: 236px 25px;
+  background-size: 440px 410px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#header .top {
+  float: right;
+  height: 27px;
+  font-size: 11px;
+}
+
+#header .top a span {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+#header .top a:nth-child(2) span {
+  background-image: url(../sp_main.png);
+  background-position: 107px 143px;
+  background-size: 440px 410px;
+  width: 60px;
+  height: 10px;
+  vertical-align: middle;
+}
+#header .top a:nth-child(3) span {
+  background-image: url(../sp_main.png);
+  background-position: 183px 102px;
+  background-size: 440px 410px;
+  width: 34px;
+  height: 11px;
+}
+nav {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+nav .navWrap {
+  width: 1190px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+nav ul {
+  display: inline-block;
+  padding: 11px 0;
+}
+nav ul li.navList {
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 15px;
+  color: #03c75a;
+  font-weight: 700;
+  line-height: 30px;
+}
+nav ul:first-child li.navList:first-child {
+  margin-left: 0;
+}
+nav ul:first-child li.navList:first-child span {
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  vertical-align: sub;
+  background-image: url(../sp_main.png);
+  background-position: 212px -386px;
+  background-size: 440px 410px;
+  margin-right: 9px;
+}
+nav ul:nth-child(2) {
+  margin-left: 15px;
+}
+
+nav ul:nth-child(2) li.navList {
+  color: #000;
+}
+
+nav a.navList {
+  margin-left: 15px;
+}
+
+nav .navWrap a:hover {
+  text-decoration: underline;
+}
+
+/*-- header end --*/
+
+/* main start */
+
+#mainWrap {
+  width: 1190px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  position: relative;
+}
+
+#mainWrap .mainBoxOne #banner {
+  width: 750px;
+  height: 135px;
+  background-image: url(../bannerEx1.jpg);
+  border: 1px solid #dae1e6;
+  background-size: 100%;
+}
+
+#mainWrap .mainBoxOne #totalNews {
+  width: 750px;
+  height: 49px;
+  background: #f7f9fa;
+  border: 1px solid #dae1e6;
+}
+
+#mainWrap .mainBoxTwo #login {
+  width: 350px;
+  height: 135px;
+  background: #f7f9fa;
+  border: 1px solid #dae1e6;
+}
+
+#mainWrap .mainBoxTwo #stock {
+  width: 350px;
+  height: 49px;
+  background: #f7f9fa;
+  border: 1px solid #dae1e6;
+}
+
+#mainWrap .mainBoxOne {
+  float: left;
+}
+#mainWrap .mainBoxTwo {
+  float: right;
+}
+#mainWrap .mainBoxOne div:first-child,
+#mainWrap .mainBoxTwo div:first-child {
+  margin-bottom: 12px;
+}
+
+/* main end */
